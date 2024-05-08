@@ -7,6 +7,7 @@ const DB=`mongodb+srv://chandanuidevops:Chandan@123@cluster0.wtuzfpj.mongodb.net
 mongoose.connect(DB,{
     useNewUrlParser: true,
     useCreateIndex: true,
+    
     useFindAndModify: false,
     useUnifiedTopology: true,
 }).then(()=>{
